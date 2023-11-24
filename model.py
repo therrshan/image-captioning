@@ -102,7 +102,8 @@ steps = len(train_ids) // batch_size
 for i in range(epochs):
   
     generator = data_generator(train_ids, train_image_features, train_captions, tokenizer, max_length, vocab_size, batch_size)
-    model.fit(generator, epochs=1, steps_per_epoch=steps, verbose=1)\
+    model.fit(generator, epochs=1, steps_per_epoch=steps, verbose=1)
+    model.save('model_' + str(i) + '.h5')
     
 
 def word_for_id(integer, tokenizer):
