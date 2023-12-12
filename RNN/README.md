@@ -9,6 +9,6 @@ RNN Code Base Structure :
 
 The output folder consists of few test images and their predicted captions. Models has the saved model weight for the final epoch that we used to test.  
 
-The model weights were saved on google drive as the file size was exceeding the github limit.
-[Model Weights]([https://link-url-here.org](https://drive.google.com/drive/folders/1XjiCD8myubTP5rMH38FVGbuLdLmKtr6x?usp=drive_link)https://drive.google.com/drive/folders/1XjiCD8myubTP5rMH38FVGbuLdLmKtr6x?usp=drive_link)
+The model weights were saved on google drive as the file size was exceeding the github limit.  
+[Model Weights](https://drive.google.com/drive/folders/1XjiCD8myubTP5rMH38FVGbuLdLmKtr6x?usp=drive_link)
 
