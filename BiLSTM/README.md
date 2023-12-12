@@ -8,4 +8,4 @@ Bi-LSTM Code Base Structure :
 <br>test.py : Has the script to test the model on single images to get the predictions.
 <br>train.py : Trains the model.
 <br>image_captioning.py : The consolidated code , having all the code from the above files at a single place.
-<br>The res folder consists of few test images and their predicted captions. Flickr folder has the saved model weight for the final epoch that we used to test.
+<br>The res folder consists of few test images and their predicted captions. Flickr folder has the saved image features for the flickr images. Due to file size restrictions on github we could not upload the final weights of the trained model.
