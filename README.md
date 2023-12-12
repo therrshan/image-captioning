@@ -4,4 +4,4 @@ Team 10 Project Code Repository
 
 **Code Base :**  
 We developed 3 custom model architectures to compare the types of models in the task of image captioning.  
-Each folder in the reposotory consiste the source code for trainign, testing and evaluating the models respectively.  
+Each folder in the repository consists the source code for training, testing and evaluating the models respectively.  
