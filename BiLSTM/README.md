@@ -8,4 +8,4 @@ models.py : The model architecture.
 test.py : Has the script to test the model on single images to get the predictions.
 train.py : Trains the model.
 image_captioning.py : The consolidated code , having all the code from the above files at a single place.
-The res folder consists of few test images and their predicted captions. Flickr folder has the saved model weight for the final epoch that we used to test.
+<br><br>The res folder consists of few test images and their predicted captions. Flickr folder has the saved model weight for the final epoch that we used to test.
