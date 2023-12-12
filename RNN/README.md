@@ -7,5 +7,8 @@ RNN Code Base Structure :
 5. test.py : Has the script to test the model on single images to get the predictions.  
 6. train.py : Trains the model.
 
-The output folder consists of few test images and their predicted captions. Models has the saved model weight for the final epoch that we used to test.  
+The output folder consists of few test images and their predicted captions.  
+
+The model weights were saved on google drive as the file size was exceeding the github limit.  
+[Model Weights](https://drive.google.com/drive/folders/1XjiCD8myubTP5rMH38FVGbuLdLmKtr6x?usp=drive_link)
 
