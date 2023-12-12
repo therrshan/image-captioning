@@ -5,7 +5,7 @@ bleu.py : Evaluation script that runs on the entire test dataset and calculates 
 encoder.py : Extracts the features from the images in the dataset using the InceptionV3 with pretrained weights from Imagenet.
 models.py : The model architecture.
 ![model](results/model-caption.png)
-test.py : Has the script to test the model on single images to get the predictions.
+<br><br>test.py : Has the script to test the model on single images to get the predictions.
 train.py : Trains the model.
 image_captioning.py : The consolidated code , having all the code from the above files at a single place.
 <br><br>The res folder consists of few test images and their predicted captions. Flickr folder has the saved model weight for the final epoch that we used to test.
