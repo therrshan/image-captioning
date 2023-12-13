@@ -10,7 +10,7 @@ This file contains the necessary functions for loading the dataset and defining 
 
 ### `test.py`
 
-In this file, the trained model weights are loaded to evaluate the model's performance on test data. It outputs the predicted captions alongside the true captions for comparison.
+In this file, the trained model weights are loaded to evaluate the model's performance on test data. It outputs the predicted captions and the BLEU score.
 
 ## Output
 
