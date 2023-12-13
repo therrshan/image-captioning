@@ -6,7 +6,7 @@ This repository contains the code for a transformer-based image captioning model
 
 ### `feature_extraction.py`
 
-This file takes the image directory and runs the InceptionV3 model to extract the image features and dump them in the pkl file.
+This file takes the image directory and runs the InceptionV3 model to extract the image features and dump them in the pkl file. Captionn cleaning is also done in this script.
 
 ### `data_loader.py`
 
