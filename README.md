@@ -1,12 +1,4 @@
-Team 10 Project Code Repository  
- 
-
-**Code Base :**  
-
-The documentation folder has the report, presentation and proposal for the project.  
-
-
-# COmparitive analysis of RNN's, BiLSTMS's and Transformers in image captioning.
+# Comparitive analysis of RNN's, BiLSTMS's and Transformers in image captioning.
 
 This repository contains the code and documentation for the team project completed for the course CS5100 at Northeastern University.
 **Title :** Pictophrases - Teaching computers to describe images.  
