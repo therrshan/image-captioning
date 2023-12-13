@@ -6,7 +6,7 @@ from keras.models import load_model
 
 test_filename = 'data/Flicker8k_text/Flickr_8k.testImages.txt'
 test_set = data_loader.get_image_ids(test_filename)
-test_descriptions = data_loader.get_clean_captions('descriptions.txt', test_set)
+test_descriptions = data_loader.get_image_captions('descriptions.txt', test_set)
 test_features = data_loader.get_image_features('features.pkl', test_set)
 
 
@@ -39,7 +39,7 @@ def plot_image_caption(img_path, predicted_caption, img):
 
 for img in images:
     photo = test_features[img.split('.')[0]]
-    caption = evaluate.beam_search_generate_desc(model, data_loader.tokenizer, photo, 34)
+    caption = evaluate.generate_description(model, data_loader.tokenizer, photo, 34)
     print(f"{img} : {caption}")
     captions_preds.append(caption.split())
     references = [d.split() for d in test_descriptions[img.split('.')[0]]]
