@@ -10,7 +10,7 @@ import numpy as np
 def extract_features(directory):
 	model = InceptionV3(weights='imagenet')
 	model = Model(inputs=model.input, outputs=model.layers[-2].output)
-	print(model.summary())
+
 	features = dict()
 
 	for name in listdir(directory):
