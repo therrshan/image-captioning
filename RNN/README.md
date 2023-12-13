@@ -1,14 +1,42 @@
-RNN Code Base Structure :  
+# RNN + GRU Model for Image Captioning
 
-1. data_loader.py : All the helper functions required to clean captions, load image features and get the image ids from the annotations file.  
-2. evaluate.py : Evaluation script that runs on the entire test dataset and calculates the BLEU scores.  
-3. feature_extraction.py : Extracts the features from the images in the dataset using the InceptionV3 with pretrained weights from Imagenet.  
-4. model.py : The model architecture.  
-5. test.py : Has the script to test the model on single images to get the predictions.  
-6. train.py : Trains the model.
+This repository contains the code for a transformer-based image captioning model. The model is trained to generate captions for images using a transformer architecture.
 
-The output folder consists of few test images and their predicted captions.  
+## Code Structure
 
-The model weights were saved on google drive as the file size was exceeding the github limit.  
-[Model Weights](https://drive.google.com/drive/folders/1XjiCD8myubTP5rMH38FVGbuLdLmKtr6x?usp=drive_link)
+### `feature_extraction.py`
+
+This file takes the image directory and runs the InceptionV3 model to extract the image features and dump them in the pkl file.
+
+### `data_loader.py`
+
+This file contains the necessary functions for loading the dataset, cleaning the provided image captions and getting image ids to split the data for training and testing.
+
+### `model.py`
+
+The model architetcure is defined in this file.
+
+### `train.py`
+
+In this file, the functions from dataloader are used to load the training data the model is trained.
+
+### `evaluate.py`
+
+This file contains the necessary functions to generate the predicted captions and evaluate the model on the test dataset
+
+### `test.py`
+
+This file takes in the image_ids from the test file individually to generate and display the predicted caption.
+
+## Output
+
+The `outputs` folder contains a selection of test images along with their corresponding predicted and true captions.
+
+## Model Weights
+
+The trained model weights are essential for reproducing the results and further experimentation. These could not be uploaded to github due to the file size limit. You can download the model weights from the following [link](https://drive.google.com/drive/folders/1XjiCD8myubTP5rMH38FVGbuLdLmKtr6x?usp=drive_link).
+
+## Contributions
+
+Contributions to this project are welcome. Please feel free to fork the repository, make your changes, and create a pull request.
 
