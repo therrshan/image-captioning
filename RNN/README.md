@@ -10,7 +10,7 @@ This file takes the image directory and runs the InceptionV3 model to extract th
 
 ### `data_loader.py`
 
-This file contains the necessary functions for loading the dataset, cleaning the provided image captions and getting image ids to split the data for training and testing.
+This file contains the necessary functions for loading the dataset for training.
 
 ### `model.py`
 
