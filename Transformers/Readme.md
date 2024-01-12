@@ -28,4 +28,8 @@ To get started with this project, clone this repository, download the model weig
 
 Contributions to this project are welcome. Please feel free to fork the repository, make your changes, and create a pull request.
 
+## Acknowledgments
+
+This project was inspired by the Keras Image Captioning Tutorial. The insights gained from this tutorial were invaluable in developing our transformer-based model.
+
 
