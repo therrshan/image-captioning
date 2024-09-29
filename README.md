@@ -52,6 +52,8 @@ You can read the full analysis with experimental setup [here.]([https://www.geno
 ### Contributions
 
 Team project completed for the course CS5100 at Northeastern University. 
+
 **Members :** Darshan Rajopadhye, Kevin Heleodoro, Poornima Jaykumar Dharamdasani, Saumya Gupta 
+
 (Contributions to this project are welcome. Please feel free to fork the repository, make your changes, and create a pull request.)
 
