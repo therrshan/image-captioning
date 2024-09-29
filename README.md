@@ -16,7 +16,7 @@ We employed three different model architectures for image captioning:
 The GRU RNN model architecture for image captioning is structured to effectively combine visual and sequential information for accurate caption generation. The model takes two types of input: visual features extracted from images and sequential information from tokenized captions.
 
 <p align="center">
-    <img src="auxil/rnn.png">
+    <img src="auxil/rnn.png"  width="700">
 </p>
 
 ### BiDirectional LSTM
@@ -25,7 +25,7 @@ Bidirectional LSTMs process inputs in two directions once forward and once backw
 in a sequence even better than LSTMs. The flow of information between each cell of LSTM is better depicted in the figure.
 
 <p align="center">
-    <img src="auxil/lstm.png">
+    <img src="auxil/lstm.png"  width="700">
 </p>
 
 ### Transformers
@@ -35,14 +35,14 @@ The self-attention mechanism allows the encoder to weigh the importance of diffe
 than others. The decoder takes the encoder’s output and generates the prediction sequence, i.e., the caption. It also uses self-attention layers. The self-attention layers in the decoder are masked to ensure that the prediction for a given word can only depend on earlier words in the sequence.
 
 <p align="center">
-    <img src="auxil/trans.png">
+    <img src="auxil/trans.png"  width="700">
 </p>
 
 ## Results
 
 <p align="center">
-    <img src="auxil/commonex.png"  width="500">
-  <img src="auxil/chart.png"  width="500">
+    <img src="auxil/commonex.png"  width="400">
+  <img src="auxil/chart.png"  width="400">
 </p>
 
 In conclusion, our exploration of different image captioning models revealed nuanced performance dynamics. While the RNN demonstrated unexpected success in BLEU-1 scores, deeper analysis unveiled its proficiency in unigram precision. However, as n-gram complexity increased, the Transformer and BiLSTM reclaimed their expected positions, emphasizing the importance of evaluating models across various metrics. It is crucial to note that while BLEU scores provide a quantitative measure of model performance, they may not fully capture the nuanced quality of generated captions, as discussed in subsequent sections. Additionally, a noteworthy observation is the marginal improvement in scores achieved by the BiLSTM compared to the RNN, considering the considerably higher computational demands of the former. This raises questions about the practical trade-off between computation cost and incremental score gains.
