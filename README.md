@@ -41,8 +41,8 @@ than others. The decoder takes the encoder’s output and generates the predicti
 ## Results
 
 <p align="center">
-    <img src="auxil/commonex.png"  width="200">
-  <img src="auxil/chart.png"  width="200">
+    <img src="auxil/commonex.png"  width="500">
+  <img src="auxil/chart.png"  width="500">
 </p>
 
 In conclusion, our exploration of different image captioning models revealed nuanced performance dynamics. While the RNN demonstrated unexpected success in BLEU-1 scores, deeper analysis unveiled its proficiency in unigram precision. However, as n-gram complexity increased, the Transformer and BiLSTM reclaimed their expected positions, emphasizing the importance of evaluating models across various metrics. It is crucial to note that while BLEU scores provide a quantitative measure of model performance, they may not fully capture the nuanced quality of generated captions, as discussed in subsequent sections. Additionally, a noteworthy observation is the marginal improvement in scores achieved by the BiLSTM compared to the RNN, considering the considerably higher computational demands of the former. This raises questions about the practical trade-off between computation cost and incremental score gains.
